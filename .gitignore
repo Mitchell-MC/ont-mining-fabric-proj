@@ -1,0 +1,37 @@
+# Source data: never commit (see SPEC.md section 4.4)
+data/
+landing/
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.kml
+*.kmz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets and local settings
+.env
+*.env
+*.local.json
+
+# Power BI Desktop project local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
